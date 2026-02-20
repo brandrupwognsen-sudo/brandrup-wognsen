@@ -191,6 +191,7 @@ function renderChart(data) {
       maintainAspectRatio: false,
       scales: {
         min: 70,   // <- change this
+        beginAtZero: false
       },
       plugins: {
         legend: { display: false },

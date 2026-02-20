@@ -191,7 +191,7 @@ function renderChart(data) {
       maintainAspectRatio: false,
       scales: {
         x: {
-          min: 80,
+          min: 75,
           beginAtZero: false
           // max: 95, // optional
           }

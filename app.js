@@ -190,7 +190,7 @@ function renderChart(data) {
       responsive: true,
       maintainAspectRatio: false,
       scales: {
-        x: { beginAtZero: false }
+        min: 70,   // <- change this
       },
       plugins: {
         legend: { display: false },
